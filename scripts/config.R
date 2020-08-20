@@ -2,7 +2,7 @@
 root <- paste0(normalizePath("~"),"/") 
 
 tcc_dwn_dir <- paste0(root,"downloads/tcc2010/")
-rootdir     <- paste0(root,"tcc2010/")
+rootdir     <- paste0(root,"tcc_gez_2010/")
 scriptdir   <- paste0(rootdir,"scripts/")
 data_dir    <- paste0(rootdir,"data/")
 tmp_dir     <- paste0(rootdir,"tmp/")
@@ -26,7 +26,7 @@ gez_codes <- paste0(root,"/gez_2010/gez_codes.csv")
 ####################################################################################################
 #################### load packages
 source(paste0(scriptdir,'packages.R'))
-
+source(paste0(rootdir,'parameters.R'))
 ####################################################################################################
 
 ## Get List of Countries 
